@@ -1,0 +1,62 @@
+body {
+    background: url("hero-materiale-idrorepellente-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 99vh;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    width: 250px;
+    padding: 40px 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+form {
+    /* padding: 20px 10px; */
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+form div {
+    padding: 10px;
+}
+
+input::placeholder {
+    color: rgb(184, 179, 179);
+}
+
+input[type="text"],
+input[type="password"] {
+    color: white;
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid white !important;
+}
+
+input[type="submit"] {
+    color: white;
+    border: 1px solid white;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+input[type="submit"]:hover {
+    background-color: white;
+    color: black;
+}
+
+input {
+    background-color: transparent;
+}
