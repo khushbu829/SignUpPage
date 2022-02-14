@@ -6,21 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up</title>
-   <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="container">
         <h1>Sign Up</h1>
-        <form action="signup.php" method="post">
-            <div class="index-1"> <input type="text" placeholder="Username" required></div>
-            <div class="index-2"> <input type="password" placeholder="Password" required></div>
-            <div class="index-3"> <input type="checkbox" name="" id="">
-                <label for="">I accept the terms and conditions</label>
+        <form>
+            <div class="index-1"> <input type="text" id="uname" name="password" placeholder="Username" required></div>
+            <div class="index-2">
+                <input type="password" id="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"title=
+                "Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
+                    placeholder="Password" required>
             </div>
-            <div class="index-4"> <input type="submit" value="Submit"></div>
+            <div class="index-3">
+                <input type="checkbox" name="check" id="check">
+                <label >Remember me</label>
+            </div>
+            <div class="index-4">
+                <input type="submit" id="submit" name="submit" value="Submit">
+            </div>
         </form>
     </div>
-</body>
+  </body>
 
 </html>
