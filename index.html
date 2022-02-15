@@ -6,28 +6,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia">
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
     <div class="container">
-        <h1>Sign Up</h1>
-        <form>
-            <div class="index-1"> <input type="text" id="uname" name="password" placeholder="Username" required></div>
-            <div class="index-2">
-                <input type="password" id="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"title=
-                "Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
-                    placeholder="Password" required>
-            </div>
-            <div class="index-3">
-                <input type="checkbox" name="check" id="check">
-                <label >Remember me</label>
-            </div>
-            <div class="index-4">
-                <input type="submit" id="submit" name="submit" value="Submit">
-            </div>
-        </form>
+        <div class="box-1">
+            <h1>THINK <br> OUT <br> OF <br> THE BOX</h1>
+        </div>
+        <div class="signup">
+            <h1>Sign Up</h1>
+            <form>
+                <div class="index-1"> 
+                    <i class="fa fa-address-book-o"></i>
+                    <input type="text" id="uname" name="usename" placeholder="Username" required>
+                </div>
+                <div class="index-2">
+                    <i class="fa fa-lock"></i>
+                    <input type="password" id="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                        title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
+                        placeholder=" Password" required>
+                </div>
+                <div class="index-3">
+                    <input type="checkbox" name="check" id="check">
+                    <label>I agree to Terms and Conditions.</label>
+                </div>
+                <div class="index-4">
+                    <input type="submit" id="submit" name="submit" value="Sign Up">
+                </div>
+                <div class="index-5">
+                    <p>Have an Account? <a href="#">Log In</a></p>
+                </div>
+            </form>
+        </div>
     </div>
-  </body>
+</body>
 
 </html>
