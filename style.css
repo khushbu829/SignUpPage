@@ -103,3 +103,8 @@ input[type="submit"]:hover {
     width: 200px;
     }
 }
+@media screen and (orientation:landscape) and (max-height:30em){
+    body{
+        height: 30em;
+    }
+}
